@@ -25,8 +25,9 @@ function displayBook() {
 // Button to add new book
 
 let newBookBtn = document.createElement('BUTTON');
+newBookBtn.innerHTML = 'New Book';
+document.body.appendChild(newBookBtn);
 
 addNewBook('can you solve my problems', 'alex bellos', 300, 'yes');
-addNewBook('a book about my life', 'Kerrin Gorrie', 500, 'yes');
 
 displayBook();
